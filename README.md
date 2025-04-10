@@ -1,20 +1,32 @@
 # Simple Flask API with Docker - Assignment
 
-This is a Python Flask application that returns the current date and time when accessed at the `/current-time` endpoint. The project is Dockerized for easy deployment.
+This is a simple Flask-based API that returns the current date and time in JSON format. The application is containerized using Docker, making it easy to deploy anywhere.
 
+## **Features**
 
-## Requirements
+- Provides an API endpoint that returns the current date and time.
+- Dockerized for easy deployment and portability.
 
-To run this project, you need to have the following installed:
+## **Technologies Used**
 
-- **Docker**: Ensure Docker is installed on your system.
-- **Git**: To clone the repository.
+- **Python 3.9**: The programming language used for the backend.
+- **Flask**: A lightweight Python web framework.
+- **Docker**: Containerization platform for packaging and distributing the application.
 
-## Steps to Run the Project
+## **Installation and Setup**
 
-### 1. Clone the GitHub Repository
+### **Prerequisites**
 
-Clone the repository to your local machine:
+Ensure you have the following installed:
+
+- **Docker**: [Install Docker](https://docs.docker.com/get-docker/)
+- **Git**: [Install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) (for cloning the repository)
+
+### **Steps to Run Locally**
+
+1. **Clone the repository:**
+
+   If you haven't already cloned the repository, do so by running:
 
 ```bash
 git clone https://github.com/yourusername/your-repository-name.git
