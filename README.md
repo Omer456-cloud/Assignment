@@ -29,13 +29,13 @@ Ensure you have the following installed:
    If you haven't already cloned the repository, do so by running in your terminal:
 
 git clone https://github.com/Omer456-cloud/Assignment.git
-cd Assignment
+ cd Assignment
 
 Build the Docker Image
-docker build -t flask-api
+(docker build -t flask-api)
 
 Run the Docker Container
-docker run -p 5000:5000 flask-api
+(docker run -p 5000:5000 flask-api)
 
  Access the API
 http://localhost:5000/current-time
@@ -48,7 +48,7 @@ You should see a response similar to this:
 Stopping the Docker Container
 To stop the container, simply go back to the terminal where the Docker container is running and press Ctrl + C. This will stop the Flask server inside the container.
 
-How to Deploy to Cloud (Optional for Extra Credit)
+How to Deploy to Cloud
 If you need to deploy this application to the cloud (for example, using AWS EC2):
 
 Launch an EC2 instance and install Docker.
