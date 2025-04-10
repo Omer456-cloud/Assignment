@@ -26,9 +26,8 @@ Ensure you have the following installed:
 
 1. **Clone the repository:**
 
-   If you haven't already cloned the repository, do so by running:
+   If you haven't already cloned the repository, do so by running in your terminal:
 
-```bash
 git clone https://github.com/Omer456-cloud/Assignment.git
 cd Assignment
 
