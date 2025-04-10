@@ -29,8 +29,8 @@ Ensure you have the following installed:
    If you haven't already cloned the repository, do so by running:
 
 ```bash
-git clone https://github.com/yourusername/your-repository-name.git
-cd your-repository-name
+git clone https://github.com/Omer456-cloud/Assignment.git
+cd Assignment
 
 Build the Docker Image
 docker build -t flask-api
